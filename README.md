@@ -85,9 +85,11 @@ node trx.js
 
 **How it works:**
 1. Checks the balance of `scam_address` every 1.5 seconds
-2. When balance reaches ≥10 TRX, it withdraws the amount minus 2 TRX (for fees)
+2. When balance reaches ≥10 TRX, it withdraws the amount minus 2 TRX (fee buffer)
 3. Sends withdrawn TRX to the `send_to` address
 4. Logs all transactions and errors to console
+
+**Note:** The 2 TRX buffer is hardcoded in the script (`withdraw_amount = balance - 2000000`). You can adjust this value based on actual network fees if needed.
 
 ### Smart Contract Development
 
