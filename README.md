@@ -87,7 +87,7 @@ const send_to = 'destination_wallet_address'
 ```
 
 **Parameters Explanation**:
-- `scam_address`: The TRON wallet address you want to monitor (Note: variable name exists in original code)
+- `scam_address`: The TRON wallet address you want to monitor (Note: Consider renaming this variable to something more professional like `monitored_address` or `source_address` in the code)
 - `real_private_key`: Private key for signing transactions (keep secure!)
 - `send_to`: Destination address for automatic transfers
 
