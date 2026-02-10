@@ -87,9 +87,11 @@ const send_to = 'destination_wallet_address'
 ```
 
 **Parameters Explanation**:
-- `scam_address`: The TRON wallet address you want to monitor
+- `scam_address`: The TRON wallet address you want to monitor (Note: variable name exists in original code)
 - `real_private_key`: Private key for signing transactions (keep secure!)
 - `send_to`: Destination address for automatic transfers
+
+**Note**: This script is intended for legitimate wallet management purposes. Always ensure you have proper authorization to monitor and transfer funds from any wallet address.
 
 ## How to Use on Desktop
 

@@ -30,10 +30,12 @@ npm install
 Edit `trx.js` and replace the empty strings:
 
 ```javascript
-const scam_address = 'YOUR_MONITORING_WALLET_ADDRESS'
-const real_private_key = 'YOUR_PRIVATE_KEY'
-const send_to = 'DESTINATION_WALLET_ADDRESS'
+const scam_address = 'YOUR_MONITORING_WALLET_ADDRESS'  // Wallet to monitor
+const real_private_key = 'YOUR_PRIVATE_KEY'            // Your private key
+const send_to = 'DESTINATION_WALLET_ADDRESS'           // Destination wallet
 ```
+
+**Note**: Only monitor wallets you have authorization to access.
 
 ### 4. Run the Script
 ```bash
